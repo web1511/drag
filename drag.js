@@ -1,13 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<script src="jquery-1.11.0.min.js"></script>
-<style>
-</style>
-<body>
-	 
-</body>
-</html>
+function drag( obj){
+	var obj = document.getElementById(obj);
+	var disX =0,disY =0;
+	obj.onmousedown = function(){
+		
+	}
+}
