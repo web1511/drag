@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=320,maximum-scale=1.3,user-scalable=no,minximum-scale=1.3">
+	<title>手机适配</title>
+</head>
+
+<style>
+    /*参考网址：http://caibaojian.com/mobile-1px-border.html*/
+    @media (min-device-width:320px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio : 2){
+    	div{
+    		font-size:20px;
+    	    color:green;
+    	}
+    }
+
+    @media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3){
+            /*iphone 6 plus*/
+            div{
+            	font-size:24px;
+                color:red;
+            }
+      }
+</style>
+<body>
+	<div>手机适配的一段文字</div> 
+</body>
+</html>
